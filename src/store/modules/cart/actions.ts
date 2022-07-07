@@ -11,7 +11,7 @@ export function addProductToCartRequest(product: IProduct) {
 
 export function addProductToCartSuccesss(product: IProduct) {
   return {
-    type: ActionTypes.addProductToCartSuccesss,
+    type: ActionTypes.addProductToCartSuccess,
     payload: {
       product,
     }
